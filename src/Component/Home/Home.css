@@ -1,0 +1,117 @@
+.carousel-item img{
+    width: 98vw;
+    position: relative;
+    left: 0.5%;
+    top: 3%;
+    /* height: 90vh; */
+    height: auto;
+    border-radius: 10px;
+}
+.card{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background: white;
+    box-shadow: 0px 0px 10px 2px lightgrey;
+    margin: 1rem;
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content: center;
+    align-items: start;
+    justify-items: center;
+    grid-gap: 0.5vw;
+
+}
+.word-break{
+    word-break: break-all;
+    padding: 1rem;
+}
+.carousel-inner {
+    top: 5px;
+}
+.home-title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.home-title h1{
+    text-transform: uppercase;
+}
+
+.main-div{
+    width: 97vw;
+    height: 94vh;
+    border: 3px solid whitesmoke;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 6px 11px 1px whitesmoke;
+    background: whitesmoke;
+}
+.home-about-div h1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background: whitesmoke;
+    font-size: 2.4vw;
+    color: gray;
+    padding: 0.5rem;
+}
+.home-about-div p span a{
+    text-decoration: none;
+    color: red;
+    font-family: inherit;
+}
+
+.home-message-div h1{
+    padding: 1rem;
+}
+.home-message-div img{
+    border-radius: 1rem;
+    width: 35vw;
+    transition: width 0.45s;
+}
+.iframe{
+    width: auto;
+    height: 60vh;
+    /* border: 2px solid gray; */
+}
+.iframe Iframe{
+    width: 94vw;
+    height: 60vh;
+}
+@media screen and (max-width:1000px) {
+    .main-div{
+        background-color: transparent;
+    }
+   .home-message-div > .responsive{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-message-div  > .responsive > img{
+        border-radius: 1rem;
+        width: 68vw;
+        transition: width 0.45s;
+    }
+    
+}
+

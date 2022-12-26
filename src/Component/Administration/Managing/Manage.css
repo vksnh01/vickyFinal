@@ -1,0 +1,47 @@
+.manage-main-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center; 
+    align-items: stretch;
+}
+.manage-head-div{
+    display: grid;
+    grid-template-columns: 4vw 13vw 16vw 17vw;
+    font-weight: bold;
+    text-align: center;
+    background: darkgray;
+    color: darkslategray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 0px 4px 2px grey;
+}
+.manage-data-div{
+    display: grid;
+    grid-template-columns:4vw 13vw 13vw 13vw;
+    text-align: center;
+  
+}
+.even{
+    background: #d7d7d7;
+    color: #200000;
+}
+.odd{
+    background: #fffbfb;
+    color: #500606;
+
+}
+@media screen and (max-width:800px) {
+    .manage-head-div{
+        display: grid;
+        grid-template-columns: 5vw 22vw 33vw 21vw;
+
+    }
+    .manage-data-div {
+        display: grid;
+        grid-template-columns: 4vw 23vw 22vw 32vw;
+        text-align: center;
+        font-size: 3.5vw;
+    }
+}

@@ -1,0 +1,79 @@
+
+.clrwhite{
+    color: white;
+}
+.b-n{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 7px;
+    width: 20vw;
+    height: 6vh;
+    background-color: white;
+}
+.login-main-container{
+    width: 70vw;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('./login_bg.jpg');
+    margin: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-div{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 11%;
+}
+.login-div form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 35%;
+    left: 100%;
+    transform: translate(15%,5%);
+}
+.user-div{
+    gap: 1rem;
+    display: flex;
+    font-size: 1.5vw;
+}
+
+.user-password{
+    gap: 1rem;
+    display: flex;
+    font-size: 1.5vw;
+}
+.submit-btn{
+    background-color: #00b8e6;
+    width: 6vw;
+    height: 5vh;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+.submit-btn:hover{
+    background-color: #017b99;
+    color: rgb(235, 227, 227);
+    font-size: 1.5vw;
+}
+/* .btn:hover{
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: white;
+    color: rgb(134, 134, 134);
+} */

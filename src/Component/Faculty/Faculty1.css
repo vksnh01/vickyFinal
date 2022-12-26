@@ -1,0 +1,210 @@
+.faculty-title-div {
+    width: 97vw;
+    height: 10vh;
+    border-radius: 7px;
+    background: rgb(126, 125, 125);
+    color: rgb(231, 224, 224);
+    margin: 1rem auto;
+    box-shadow: 0px -6px 10px -4px #959292;
+}
+
+.container {
+    border: 2px solid #ebebeb;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ebebeb;
+    margin: 1rem auto;
+    background: #ebebeb;
+    padding: 0;
+}
+
+.faculties-container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: auto auto;
+}
+
+.adminsitor-title {
+    background: #c1bfbf;
+    color: white;
+    padding: 0rem 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.adminsitor-title>h1 {
+    color: #3e3c3c;
+    font-size: 2.5vw;
+    font-weight: 700;
+    font-family: auto;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 5px 5px;
+}
+
+.faculties-card {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 1rem;
+    background: whitesmoke;
+    align-content: flex-start;
+    box-shadow: 0px 0px 10px 0px #a5a3a3;
+}
+
+.p_1 {
+    padding: 1rem;
+}
+
+.faculties-btn {
+    width: auto;
+    height: auto;
+    position: sticky;
+    top: 29px;
+}
+
+.faculties-content {
+    width: auto;
+    height: auto;
+}
+
+.ai {
+    width: 18vw;
+    margin: 7px 0px;
+}
+
+.accordion-button {
+    padding: 0.6rem;
+    /* padding: none; */
+}
+.accordion-body{
+    padding: 0%;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: skyblue;
+    color: rgb(39, 39, 39);
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    .faculty-title-div>h1 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: auto;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        padding: 5px 25px;
+    }
+
+    .ai {
+        width: 28vw;
+        height: 4vh;
+    }
+
+    .faculties-btn {
+        position: sticky;
+        top: 24px;
+    }
+
+    /* .card-div {
+        width: 40vw;
+        height: 50vh;
+        border-radius: 10px;
+        background-color: #e7dada;
+        margin: auto;
+    }
+
+    .img {
+        width: 40vw;
+    } */
+
+}
+
+@media screen and (max-width: 1000px) {
+    .faculty-title-div>h1 {
+
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: auto;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        padding: 5px 25px;
+    }
+
+    .faculties-btn {
+        position: sticky;
+        top: 24px;
+    }
+
+    .ai {
+        width: 37vw;
+        margin: 10px 0px;
+
+    }
+
+    /* .card-div {
+        width: 35vw;
+        height: 70vh;
+        border-radius: 10px;
+        background-color: #e7dada;
+        margin: auto;
+    }
+
+    .img {
+        width: 35vw;
+    } */
+}
+
+
+
+
+
+/*
+.faculty-title-div{
+    width: 97vw;
+    height: 10vh;
+    border-radius: 7px;
+    background: rgb(126, 125, 125);
+    color: rgb(231, 224, 224);
+    margin: 1rem auto;
+    box-shadow: 0px -6px 10px -4px #959292;
+}
+.faculties-container{
+    grid-template-columns: auto auto;
+}
+@media screen and (max-width:1000px) {
+   .ai{
+    width: 30vw;
+   }
+    
+    
+}*/
+@media screen and (max-width:500px) {
+    /* .faculties-btn{
+        width: 1vw;
+    } */
+    .faculties-container{
+        display: grid;
+        grid-template-columns: 42vw 58vw;
+    }
+    .ai{
+        width: 27vw;
+    }
+    .accordion-button{
+        font-size: 3vw;
+    }
+    .accordion-button:not(.collapsed) {
+        font-size: 11px;
+        font-weight: 900;
+    }
+} 

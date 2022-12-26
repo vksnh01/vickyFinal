@@ -1,0 +1,58 @@
+.college-main-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center; 
+    align-items: stretch;
+}
+.college-head-div{
+    display: grid;
+    grid-template-columns: 3vw 8vw 12vw 12vw 16vw;
+    font-weight: bold;
+    text-align: center;
+    background: darkgray;
+    color: darkslategray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 0px 4px 2px grey;
+}
+.college-data-div{
+    display: grid;
+    grid-template-columns: 3vw 9vw 13vw 13vw 13vw;
+    text-align: start;
+}
+.college-data-div > p{
+    /* text-align: center; */
+    margin-left: 1rem;
+}
+.even{
+  
+    background: #d7d7d7;
+    color: #200000;
+}
+.odd{
+   
+    background: #fffbfb;
+    color: #500606;
+
+}
+@media screen and (max-width:800px) {
+    .college-head-div{
+        display: grid;
+        grid-template-columns:19vw 25vw 19vw 26vw;
+
+    }
+    .college-data-div {
+        display: grid;
+        grid-template-columns:12vw 19vw 31vw 28vw;
+        text-align: center;
+        font-size: 3.5vw;
+    }
+    .head-id{
+        display: none;
+    }
+    .id{
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+const Data=[
+    {id:1,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:2,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:3,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:4,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:5,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:6,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:7,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:8,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:9,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:10,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:11,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:12,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:13,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:14,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:15,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:16,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:17,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:18,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:19,cls:"even",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+    {id:20,cls:"odd",NOC:"Estate Officer",co:"Ch.Devraj Singh",email:"xyz@gmail.com",contact:123456789},
+]
+export default Data;

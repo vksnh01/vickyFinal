@@ -1,0 +1,24 @@
+.img1{
+height: 100vh;
+}
+.img2{
+height: 90vh;
+}
+.img3{
+height: 90vh;
+}
+@media screen and (max-width:1000) {
+    .img1{
+        width: 86vw;
+        height: 100vh;
+        }
+        .img2{
+            width: 86vw;
+        height: 48vh;
+        }
+        .img3{
+            width: 86vw;
+        height: 50vh;
+        }
+    
+}

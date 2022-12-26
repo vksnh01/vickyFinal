@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    font-size: 1vw;
+    font-family: initial;
+    letter-spacing: 2px;
+    /* position: relative; */
+    /* top: 134rem; */
+}

@@ -1,0 +1,120 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid #d7a3ff; */
+    /* width: 95vw; */
+    width: auto;
+    /* height: 90vh; */
+    height: auto;
+    margin: 1rem;
+    background: #e9dbf5;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 12px 1px #d7a3ff;
+}
+.title{
+    width: 100vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background: #fce2ff;
+    color: gray;
+}
+.title h1{
+    font-size: 2.3vw;
+    font-weight: 500;
+    font-family: emoji;
+    letter-spacing: 3px;
+}
+.Container .img{
+    width: 29vw;
+    height: 41vh;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px 2px #a871ef;
+    margin: 1rem;
+    background: white;
+}
+ .img img{
+    width: 29vw;
+    height: 41vh;
+    border-radius: 14px;
+}
+
+@media screen and (max-width:950px) {
+    .Container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:space-around;
+    }
+    .Container .img{
+        width: 41vw;
+    height: 51vh;
+    margin: 10px 12px;
+    }
+    .Container .img img{
+        width: 41vw;
+    height: 51vh;
+    border-radius: 14px;
+    }  
+}
+
+@media screen and (max-width:600px) {
+    .Container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .title{
+        width: 90vw;
+        height: 4vh;
+    }
+    .title h1{
+        font-size: 3.3vw;
+        font-weight: 500;
+        font-family: emoji;
+        letter-spacing: 3px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Container .img{
+        width: 50vw;
+        height: 51vh;
+    }
+    .Container .img img{
+        width: 50vw;
+    height: 51vh;
+    border-radius: 14px;
+    }
+}
+    @media screen and (min-width:951px) and ( max-width:1000px) {
+        .Container{
+            width: auto;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content:space-between;
+        }
+        .Container .img{
+            width: 29vw;
+        height: 45vh;
+        margin: 10px 12px;
+        }
+        .Container .img img{
+            width: 29vw;
+        height: 45vh;
+        border-radius: 14px;
+        }
+    }

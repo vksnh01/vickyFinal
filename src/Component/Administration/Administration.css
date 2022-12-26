@@ -1,0 +1,104 @@
+.container{
+    border: 2px solid #ebebeb;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #ebebeb;
+    margin: 1rem auto;
+    background: #ebebeb;
+    padding: 0;
+}
+.administor-container{
+    display: grid;
+    align-items: start;
+    grid-template-columns: 24vw auto;
+}
+.adminsitor-title{
+    background: #c1bfbf;
+    color: white;
+    padding: 0rem 1rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.adminsitor-title > h1{
+    color: #3e3c3c;
+    font-size: 2.5vw;
+    font-weight: 700;
+    font-family: auto;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 5px 5px;
+}
+.administor-card{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    margin: 1rem;
+    background: whitesmoke;
+    align-content: flex-start;
+    box-shadow: 0px 0px 10px 0px #a5a3a3;
+}
+.p_1{
+    padding: 1rem;
+    position: sticky;
+    top: 17px;
+
+}
+
+.administor-btn{
+    width: auto;
+    height: auto;
+}
+.administor-content{
+    width: auto;
+    height: auto;
+}
+.ai{
+    width: 18vw;
+    margin: 7px 0px;
+}
+.accordion-button{
+    padding: 0.6rem;
+}
+.accordion-button:not(.collapsed){
+    background-color: skyblue;
+    color: rgb(39, 39, 39);
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+    .administor-card{
+        align-items: center;
+    }
+    .administor-container{
+        display: grid;
+        align-items: start;
+        grid: none;
+    }
+    .adminsitor-title > h1{
+       
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: auto;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        padding: 5px 5px;
+    }
+    .administor-card > .ai{
+        /* width: 80vw; */
+        height: 6vh;
+    }
+    /* .collapsed{
+        background-color: black;
+        color: white;
+    } */
+    /* .accordion-button{
+        background: green;
+    } */
+}

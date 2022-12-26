@@ -1,0 +1,33 @@
+.student-main-div{
+    width: 96vw;
+    height: 96vh;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    margin: 1rem;
+    box-shadow: 0px 0px 10px 1px gray;
+    background-color: azure;
+    display: grid;
+    grid-template-columns: 20rem auto;
+}
+.single{
+    margin: 1rem;
+}
+.student-btn-div{
+    border-radius: 10px;
+    width: 20vw;
+    /* height: 40vh; */
+    height: auto;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px 1px grey;
+    background: white;
+    padding: 1rem;
+}
+.student-content-div{
+    border-radius: 10px;
+    width: 70vw;
+    height: 40vh;
+    margin: 1rem;
+    box-shadow: 0px 0px 10px 1px grey;
+    background: white;
+    padding: 1rem;
+}

@@ -1,0 +1,61 @@
+.error-main-div{
+    /* border: 2px solid black; */
+    width: 90vw;
+    height: 81vh;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 2rem auto;
+    box-shadow: 0px 0px 10px 0px grey;
+    position: relative;
+}
+.error-container-div{
+    /* background: url('./GIF/errorMachine.gif'); */
+    /* border: 2px solid black;
+    width: 45vw;
+    height: 71vh;
+    margin: 2rem 6rem;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: contain; */
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+
+}
+
+.error-message-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.error-message-div > h1{
+    font-family: ubuntu;
+    font-size: 6vw;
+    color: #dbdbdb;
+}
+.error-img-div{
+    /* border: 1px solid gray; */
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin: 1rem 1rem 0rem 0rem;
+}
+.error-img-div > img{
+    width: 47vw;
+    border-radius: 25px;
+}
+
+@media screen and (max-width:1000px) {
+    .error-container-div{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 50%;
+        transform: translate(0%,-50%);
+    }
+}
